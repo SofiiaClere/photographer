@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">John Smith </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center p-2" id="navbarNavAltMarkup">
+               <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" href="#portraits">Portraits</a>
+                  <a class="nav-link active" href="#pets">Pets</a>
+                  <a class="nav-link active" href="#family">Weddings&Family</a>
+                  <a class="nav-link active" href="#birthday">Birthdays</a>
+                  <a class="nav-link active" href="#price">Prices</a>
+                  <a class="nav-link active" href="#review">Reviews</a>
+                  <a class="nav-link active" href="#booking">Book now!</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- CAROUSEL -->
+      <div id="carouselExample" class="carousel slide">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="wedding.jpg" class="d-block w-100" alt="A couple holding hands">
+            </div>
+            <div class="carousel-item">
+               <img src="owner hugging a dog.jpg" class="d-block w-100" alt="A couple sitting on the bed with their dog">
+            </div>
+            <div class="carousel-item">
+               <img src="wedding2.jpg" class="d-block w-100" alt="Two rings laying on top of flowers">
+            </div>
+            <div class="carousel-item">
+               <img src="birthdaycake.jpg" class="d-block w-100" alt="Birthday cake">
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+      <!-- Photos -->
+      <section>
+         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
+            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden ">
+               <div class="my-3 p-3">
+                  <h2 id="portraits" class="display-5">Portraits</h2>
+                  <p class="lead">Make up artists and outfits available for your dream photoshoot</p>
+                  <img src="https://images.unsplash.com/photo-1571513722275-4b41940f54b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Portrait of a woman" width="100%">
+               </div>
+            </div>
+            <div id="family" class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden ">
+               <div class="my-3 py-3">
+                  <h2 class="display-5">Family photoshoots</h2>
+                  <p class="lead">Save those special moments!</p>
+                  <img src="https://images.unsplash.com/photo-1617939767459-50d8ac3df080?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="A pregnant woman holding a baby">
+               </div>
+            </div>
+         </div>
+         <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+               <div class="my-3 p-3">
+                  <h2 id="pets" class="display-5">Pets</h2>
+                  <p class="lead"> Cute and adorable photoshoots for your pets!</p>
+                  <img src="cat.jpg" alt="A cat looking at the camera" alt="woman">
+               </div>
+            </div>
+            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+               <div class="my-3 py-3">
+                  <h2 id="birthday" class="display-5">Birthdays</h2>
+                  <p class="lead">Celebrate and remember your special day!</p>
+                  <img src="birthday.jpg" alt="A woman holding baloons">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- PRICES -->
+      <section>
+         <div id="price" class="pricing-header p-3 pb-md-4 mx-auto text-center bg-light">
+            <h1 class="display-4 fw-normal text-body-emphasis">Prices</h1>
+            <p class="fs-5 text-body-secondary">Choose a plan that suits you! Portraits, pets and maternity photoshoots are usually taken in the studio.  <br>Any other locations must be booked in advance and come at extra charge. Normal editing time depends on the amount of pictures that comes with a package and may range from 24 hours to 14 days</p>
+         </div>
+         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                     <h4 class="my-0 fw-normal">Portraits</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$250<small class="text-body-secondary fw-light">/1 hour</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 professional photos taken in the studio </li>
+                        <li>Edited with presets</li>
+                        <li>Make up artist at discounted rate</li>
+                        <li>Raw photos come at <b> extra charge of 20$</b> a photo</li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                     <h4 class="my-0 fw-normal">Maternity package</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$500<small class="text-body-secondary fw-light">/2 hours</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li> 25 photos taken in the studio</li>
+                        <li> Edited with presets </li>
+                        <li>Make up artist and dresses come at <b>discounted rates</b> </li>
+                        <li>Additional photos and editing is <b>extra charge</b> </li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3 ">
+                     <h4 class="my-0 fw-normal">Pets</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$200<small class="text-body-secondary fw-light">/hour</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 professionally edited photos</li>
+                        <li> Travelling outside of city limits is charged <b>15$ </b>for every mile</li>
+                        <li>Raw photos can be requested at extra charge</li>
+                        <li>Cat/dog treats are available onsite</li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                     <h4 class="my-0 fw-normal">Add on: Make up Artist</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$250<small class="text-body-secondary fw-light">/a person</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li>Reserve a make up artist for any of the photoshoots</li>
+                        <li>Price is per person</li>
+                        <li>Receive recommendations on make up look</li>
+                        <li>Help center access</li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                     <h4 class="my-0 fw-normal">Birthdays</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$1500<small class="text-body-secondary fw-light">/2.5 hours</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li>50 edited photos included</li>
+                        <li>Time of editing: 5 - 10 days</li>
+                        <li> Travelling outside of city limits is charged <b>15$ </b>for every mile</li>
+                        <li>Raw photos can be requested at extra charge</li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                     <h4 class="my-0 fw-normal">Weddings/Engagements</h4>
+                  </div>
+                  <div class="card-body">
+                     <h1 class="card-title pricing-card-title">$2500<small class="text-body-secondary fw-light">/4 hours</small></h1>
+                     <ul class="list-unstyled mt-3 mb-4">
+                        <li>50 photos</li>
+                        <li>Preset editing</li>
+                        <li>Editing 5 - 10 days</li>
+                        <li> Raw photos can be requested at a discounted rate </li>
+                        <li>Make up artist discounts</li>
+                     </ul>
+                     <button type="button" class="w-100 btn btn-lg btn-light">Book now!</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- CAROUSEL -->
+      <section>
+         <div id="carousel2" class="carousel slide">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="holding hands.jpg" class="d-block w-100" alt="Two hands of newlyweds">
+               </div>
+               <div class="carousel-item">
+                  <img src="woman sitting.jpg" class="d-block w-100" alt="Woman sitting on top of the cliff">
+               </div>
+               <div class="carousel-item">
+                  <img src="pets.jpg" class="d-block w-100" alt="Women sitting on the bed with their pets">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+         </div>
+      </section>
+      <!-- BOOKING -->
+      <section>
+         <div id="booking" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+            <div class="col-md-6 p-lg-5 mx-auto my-5">
+               <h1 class="display-3 fw-bold">Book an appointment today!</h1>
+               <h3 class="fw-normal text-muted mb-3">Sign-up is available only 2 times a month</h3>
+               <div class="d-flex gap-3 justify-content-center lead fw-normal">
+                  <a class="icon-link" href="#"> Book now!
+                  </a>
+               </div>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+            </div>
+         </div>
+         <hr class="featurette-divider">
+      </section>
+      <!-- TESTIMONIALS -->
+      <div class="container marketing">
+         <!-- Three columns of text below the carousel -->
+         <div id="review" class="row mt-5">
+            <div class="col-lg-4">
+               <img src="womanportrait (2).jpg" class="rounded-circle" width="290" height="270"  mx-auto d-block role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+               <h2 class="text-center">Fun and enjoyable!</h2>
+               <p class="text-center">I finally found a photographer-make up artist all in one place for my dream photoshoot!</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+               <img src="man photo (2).jpg" class="rounded-circle" width="290" height="270"  mx-auto d-block xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+               <h2 class="text-center">Professional</h2>
+               <p class="text-center">It was a pleasure to work with John! Now I can proudle have a picture to hang in my office for my business partners to see!</p>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+               <img src="model.jpg" class=" rounded-circle" width="290" height="270"  mx-auto d-block xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+               <h2 class="text-center">Modeling</h2>
+               <p  class="text-center">This photoshoot opened up my prospects for a modelling career! I will recommend John Smith to anyone who's aspiring to become a model!</p>
+            </div>
+            <!-- /.col-lg-4 -->
+         </div>
+         <!-- /.row -->
+      </div>
+      <!-- FOOTER -->
+      <footer class="pt-4 my-md-5 pt-md-5 border-top bg-light">
+         <div class="row">
+         <div class="col-12 col-md text-center">
+            <a href="https://edu-canshecode.thinkific.com/pages/javascript">
+               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+               </svg>
+            </a>
+         </div>
+      </footer>
+   </body>
+</html>
